@@ -40,11 +40,8 @@ $(document).ready(function () {
   
     var typed = new Typed(".typing", {
       strings: [
-        "Fullstack Developer",
-        "Software Developer",
-        "Python Developer",
-        "Founder",
-        "Author"
+        "Frontend Developer",
+        "Cyber Security Enthusiast"
       ],
       typeSpeed: 100,
       backSpeed: 60,
@@ -53,8 +50,8 @@ $(document).ready(function () {
   
     var typed = new Typed(".typing-2", {
       strings: [
-        "Fullstack Developer",
-        "Software Developer"
+        "Frontend Developer",
+        "Cyber Security Enthusiast"
       ],
       typeSpeed: 100,
       backSpeed: 60,
@@ -73,15 +70,15 @@ $(document).ready(function () {
         0: {
           items: 1,
           nav: false
-        },
-        600: {
-          items: 2,
-          nav: false
-        },
-        1000: {
-          items: 3,
-          nav: false
         }
+        // 600: {
+        //   items: 2,
+        //   nav: false
+        // }
+        // 1000: {
+        //   items: 3,
+        //   nav: false
+        // }
       }
     });
   });
